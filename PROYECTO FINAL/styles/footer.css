@@ -1,0 +1,32 @@
+/* Styles bar footer*/
+.footer {
+    background-color: rgb(54 56 63);
+    justify-content: space-evenly;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+/* Styles navs-links footer*/
+.footer>.navs-footer-links {
+    text-align: center;
+    border: 0.5px solid rgb(103 103 103);
+    padding: 4%;
+}
+/* Styles text footer*/
+.footer > .navs-footer-links span {
+    font-size: 0.9em;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.footer > .navs-footer-links >.footer-bold {
+    font-size: 1.2em;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+   
+}
+

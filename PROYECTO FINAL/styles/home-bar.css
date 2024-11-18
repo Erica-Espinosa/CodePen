@@ -1,0 +1,88 @@
+/* Styles bar header */
+
+.navigation-wrapper {
+    background-color: black; 
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.navigation-wrapper>.left-column {
+    display: flex;
+    align-items: center;
+}
+/* Styles image CodePen */
+.navigation-wrapper>.left-column>.logo {
+    padding-left: 27px;
+    display: flex;
+    justify-content: left;
+}
+.navigation-wrapper>.left-column>.logo img {
+    width: 156px;
+    height: 83%;
+}
+/* Styles nav-links */
+.navigation-wrapper>.left-column>.contact-explore-wrapper>.explore {
+    color: darkgoldenrod;
+    padding-left: 19px;
+}
+.navigation-wrapper>.left-column>.contact-explore-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+    text-align: justify;
+}
+.contact-explore-wrapper {
+    padding-left: 31px;
+}
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.links-wrapper>.nav-link {
+    width: 70px;
+    text-align: center;
+}
+/* Styles text nav-links */
+.links-wrapper>.nav-link a {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: none;
+    transition: 0.5s;
+}
+/* Styles buttons access */
+.navigation-wrapper>.right-column {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.start-links>.button-link {
+    text-align: center;
+}
+.navigation-wrapper>.right-column {
+    padding-left: 150px;
+}
+/* Styles icon search */
+.navigation-wrapper>.right-column>.start-links>.icon {
+    padding-top: 10px;
+}
+.navigation-wrapper>.right-column>.start-links>.icon i {
+    font-size: 1.5em;
+    color: gray;
+}
+/* Styles buttons search */
+.start-links {
+    display: grid;
+    grid-template-columns: 4fr 1fr 3fr 3fr;
+    grid-gap: 5px;
+}
+/* Styles chevron-down*/
+.navigation-wrapper>.right-column>.start-links>.button-link>.btn i{
+    color: #63E6BE;
+}

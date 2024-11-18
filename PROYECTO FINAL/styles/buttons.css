@@ -1,0 +1,66 @@
+/* Styles buttons*/
+.btn{
+    background-color: rgb(54 56 63);
+    color: white;
+    font-size: 0.9em;
+    padding: 15px 18px;
+    border: 1px solid rgb(54 56 63);
+    border-radius: 3px;
+    outline: none;
+    transition: 0.3s;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+.btn:active{
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
+}
+/* Styles butons access hover*/
+.right-column >.start-links>.button-link>.btn:hover{ 
+    border: 1px solid #65656b;
+}
+.right-column >.start-links>.icon:hover{ 
+    border: 1px solid #65656b;
+}
+.btnSpark {
+    color: gray;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    margin-top: -3px;
+}
+.butons-wrappers > .button-sign >.btn{
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #4bce79;
+    color: black;
+    font-size: 27px;
+    border-radius: 3px;
+}
+.butons-wrappers > .button-learn > .btn{
+    background-color: rgb(17 17 17);
+    color: white;
+    font-size: 27px;
+    font-weight: 100px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+/* Styles butons-wrappers hover*/
+.butons-wrappers > .button-sign >.btn:hover{
+    border: 1px solid #65656b;
+}
+.butons-wrappers > .button-learn > .btn:hover{
+    border: 1px solid #65656b;
+}
+/* Styles butons header*/
+.navigation-wrapper>.left-column>.contact-explore-wrapper>.links-wrapper>.nav-link:hover{
+    border: 1px solid transparent;
+}
+.navigation-wrapper>.left-column>.contact-explore-wrapper>.links-wrapper>.btnSpark:hover{
+    border: 1px solid transparent;
+}
+/* Styles butons footer*/
+.footer>.navs-footer-links:hover{
+    border: 1px solid black;
+}
